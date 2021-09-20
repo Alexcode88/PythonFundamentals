@@ -41,6 +41,19 @@ limit = 0
 
 while limit <= 10:
     print( limit )
-    limit = limit + 1
+    limit += 1
 
 print( "The loop just finished" )
+
+
+nums = [10, 20, 30, 40, 50]
+
+for element in nums:
+    print( element )
+
+
+sum = 0
+for i in range(0, 500001, 1):
+    if i % 2 != 0:
+        sum += i
+print( sum )
